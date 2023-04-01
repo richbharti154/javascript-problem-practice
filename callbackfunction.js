@@ -11,7 +11,9 @@
  function sub(a,b){
     return a-b
  }
+
  function cal(fx,a,b){
-    return fx(a,b)
+   return (fx,a,b)
  }
+ console.log(cal(add(4,5)))
  console.log(cal(sub(4,5)))
