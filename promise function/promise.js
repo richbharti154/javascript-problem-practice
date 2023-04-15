@@ -8,9 +8,9 @@
 let p=new Promise((resolve,reject)=>{
 console.log('hello')
 setTimeout(()=>{
-console.log('hi')
-// resolve(true)
-reject(new Error('I am an error'))
+ console.log('hi')
+ resolve('me')
+// reject(new Error('I am an error'))
 },5000)
 
 })
