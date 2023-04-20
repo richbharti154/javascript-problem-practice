@@ -1,7 +1,15 @@
-let str='nhu hi iouyt app'
-str=str.split('')
+let str='hlo aicha'
+function vowelCount(str){
+let newStr=str.split(" ")
+let vowel=['a','e','i','o','u']
 let count=0
-for(let i=0;i<str.length;i++){
-    if(str[i]!=str[i+1]) count++
+for(let i=0;i<newStr.length;i++){
+    if(vowel.includes(str)){
+        str[i]==newStr[i+1]
+        count++
+    }
+   
 }
-console.log(count)
+  return count
+}
+console.log(vowelCount(str))

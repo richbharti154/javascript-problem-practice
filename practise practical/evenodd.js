@@ -1,13 +1,11 @@
-let arr=[8,4,5,62]
-function evenOdd(arr,n){
-    let newArr=[]
-    for(let i=0;i<arr.length;i++){
-        if(n%2===0){
-            newArr.push()
-        }
-        
-        return newArr
-    }
+let arr=[6,2,3,4,5]
+let n=arr.length
+for(let i=0;i<n;i++){
+  if(arr[i]%2==0){
+    console.log(`${arr[i]} even`)
+  }
+  else {
+    console.log(`${arr[i]} odd` )
+  }
+
 }
-console.log(evenOdd(arr))
-    
