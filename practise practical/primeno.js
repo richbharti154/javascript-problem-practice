@@ -1,19 +1,13 @@
-let n=11
-// if(n==1){
-//     console.log('not prime and not composite')
-
-let check=false
-for(let i=2;i<n;i++){
-    if(n%i==0){
-    check=false
-    break
+let num=23
+var primeNo=true
+for(let i=2;i<num;i++){
+    if(num%2==0){
+        primeNo=false
+    }
+    
 }
-}
-               //  time complexity  o(nroute/2*n)
-if(check){
-    console.log('prime')
-}
-
-else{
-    console.log('not prime')
+if(primeNo==true){
+    
+}else{
+    console.log(`${num} not primeno`)
 }
