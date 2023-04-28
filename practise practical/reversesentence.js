@@ -1,4 +1,4 @@
-let str='hello '
+let str='hello  ji'
 let str1=''
 
 function stringWord(str){

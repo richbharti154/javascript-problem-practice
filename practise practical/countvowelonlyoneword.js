@@ -1,4 +1,4 @@
-let str='hello'
+let str='hello this'
 function countvowel(str){
     let vowel=['a','e','i','o','u']
     count=0
