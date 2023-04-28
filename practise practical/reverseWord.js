@@ -16,3 +16,4 @@ function reverse(str){
       return result.join(" ")
   };
  console.log(reverseWord('this is'))
+ 
