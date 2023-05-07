@@ -104,4 +104,16 @@ function findName(stateName) {
     }
     console.log(findName('StateName'))
 
+
+    function printNamesUpdated() {
+        const nameArr = [];
+        for (let i = 0; i < facebookProfiles.length; i++) {
+        const { firstName, lastName } = facebookProfiles[i];
+        const fullName = firstName + " " + (lastName || "");
+        nameArr.push(fullName);
+        }
+        return nameArr
+        }                                               // adding firstname and last name
+        console.log(printNamesUpdated('nameArr'))
+
  
