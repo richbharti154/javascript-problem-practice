@@ -2,7 +2,7 @@ let person={
     name:'richa',
     age:23
 }
-let person2=                   // 1 st example
+let person2='munka'                   // 1 st example
    JSON.parse(JSON.stringify(person))
    person2.age=22
    console.log(person2)

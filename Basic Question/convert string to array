@@ -1,0 +1,3 @@
+const arr2='my name is richa bharti'
+const arr3=arr2.split(' ')
+console.log(arr3)

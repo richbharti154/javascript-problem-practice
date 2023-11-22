@@ -5,7 +5,7 @@ let obj1={
 let obj2=obj1
 obj2. password=543   
 console.log(obj1)
-console.log(obj1)
+console.log(obj2)
 
 // second method to get array
 
